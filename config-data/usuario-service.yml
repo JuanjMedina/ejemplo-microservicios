@@ -14,4 +14,5 @@ eureka:
 
   instance:
     prefer-ip-address: true
+    ip-address: ${HOST_IP:192.168.2.6}  # Usa la IP de tu máquina host
     instance-id: ${spring.application.name}:${random.value}
