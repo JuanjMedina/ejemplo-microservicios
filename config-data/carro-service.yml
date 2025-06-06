@@ -6,8 +6,9 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://localhost:8761/eureka/
-    instance: 
-      prefer-ip-address: true
-      metadata-map:
-        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+      defaultZone: http://localhost:8761/eureka/
+
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
