@@ -33,4 +33,3 @@ spring:
           uri: lb://carro-service
           predicates:
             - Path=/cars/**
-            - Path=/cars
