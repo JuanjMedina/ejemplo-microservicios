@@ -7,12 +7,13 @@ management:
       exposure:
         include: '*'
 
+spring:
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
-          lowerCaseServiceId: true
+          lower-case-service-id: true
       routes:
         - id: usuario-service
           uri: lb://usuario-service
@@ -36,5 +37,5 @@ eureka:
 
   instance:
     prefer-ip-address: true
-    ip-address: ${HOST_IP:192.168.2.6} # Usa tu IP local real aquí
+    ip-address: ${HOST_IP:192.168.2.6}
     hostname: ${HOST_IP:192.168.2.6}
