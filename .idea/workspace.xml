@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba62fe11-3be4-44b6-bdd3-fda606e22c4d" name="Changes" comment="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cursor/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MICROSERVICIOS-JAVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/carro-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/carro-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/eureka-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/moto-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/moto-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/usuario-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/usuario-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/com/usuario/service/config/DynamicPortEurekaUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/com/usuario/service/config/DynamicPortEurekaUpdater.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/moto-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="FBXEHaFK" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2y1QEQR8WT8FPt76nBT7kolaw64" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "eureka-service",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/juanj/Documents/github/MICROSERVICIOS-JAVA",
+    "org.rust.first.attach.projects": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MotoServiceApplication">
+    <configuration name="ApigatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MICROSERVICIOS-JAVA.apigateway-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.service.ApigatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MICROSERVICIOS-JAVA.carro-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="carroservice.carroservice.CarroServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MICROSERVICIOS-JAVA.config-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="configservice.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MICROSERVICIOS-JAVA.eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotoServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MICROSERVICIOS-JAVA.moto-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="motoservice.motoservice.MotoServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotoServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="moto-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="motoservice.motoservice.MotoServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MICROSERVICIOS-JAVA.usuario-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.usuario.service.UsuarioServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba62fe11-3be4-44b6-bdd3-fda606e22c4d" name="Changes" comment="" />
+      <created>1748999487656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748999487656</updated>
+      <workItem from="1748999488949" duration="98000" />
+      <workItem from="1749001331012" duration="126000" />
+      <workItem from="1749002553471" duration="23000" />
+      <workItem from="1749165905842" duration="706000" />
+      <workItem from="1749186109766" duration="220000" />
+      <workItem from="1749264259771" duration="71000" />
+      <workItem from="1749264359688" duration="140000" />
+      <workItem from="1749264533067" duration="178000" />
+      <workItem from="1749264736877" duration="472000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings">
+      <option name="closed" value="true" />
+      <created>1749186358662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749186358662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings" />
+    <MESSAGE value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
+  </component>
+</project>

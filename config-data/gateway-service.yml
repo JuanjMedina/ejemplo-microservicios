@@ -1,25 +1,17 @@
 server:
-  port: 8099
+  port: 8080
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
 
 logging:
   level:
-    org.springframework.cloud.gateway: DEBUG
-    reactor.netty.http.client: DEBUG
+    root: info
+    org.springframework.cloud.gateway: trace
+    org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: info
 
 
 spring:
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true
       routes:
         - id: usuario-service
           uri: lb://usuario-service

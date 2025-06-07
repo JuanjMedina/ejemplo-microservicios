@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="MICROSERVICIOS-JAVA.moto-service.main" />
+        <module name="MICROSERVICIOS-JAVA.carro-service.main" />
+        <module name="MICROSERVICIOS-JAVA.usuario-service.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MICROSERVICIOS-JAVA.apigateway-service" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.apigateway-service.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.apigateway-service.test" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.carro-service" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.carro-service.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.carro-service.test" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.config-service" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.config-service.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.config-service.test" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.eureka-server" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.eureka-server.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.eureka-server.test" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.moto-service" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.moto-service.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.moto-service.test" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.usuario-service" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.usuario-service.main" options="-parameters" />
+      <module name="MICROSERVICIOS-JAVA.usuario-service.test" options="-parameters" />
+      <module name="moto-service" options="-parameters" />
+      <module name="moto-service.main" options="-parameters" />
+      <module name="moto-service.test" options="-parameters" />
+    </option>
+  </component>
+</project>

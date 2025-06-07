@@ -1,0 +1,11 @@
+rootProject.name = "MICROSERVICIOS-JAVA"
+
+include(
+    "apigateway-service",
+    "carro-service",
+    "config",
+    "config-service",
+    "eureka-server",
+    "moto-service",
+    "usuario-service"
+)

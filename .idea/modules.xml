@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MICROSERVICIOS-JAVA.iml" filepath="$PROJECT_DIR$/.idea/MICROSERVICIOS-JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/carro-service/MICROSERVICIOS-JAVA.carro-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/carro-service/MICROSERVICIOS-JAVA.carro-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/moto-service/MICROSERVICIOS-JAVA.moto-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/moto-service/MICROSERVICIOS-JAVA.moto-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usuario-service/MICROSERVICIOS-JAVA.usuario-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/usuario-service/MICROSERVICIOS-JAVA.usuario-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/moto-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/moto-service.main.iml" />
     </modules>
   </component>
 </project>
