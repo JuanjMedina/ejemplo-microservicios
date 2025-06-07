@@ -1,6 +1,37 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+    org.springframework.cloud.gateway: trace
+    org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: info
+
 spring:
-  config:
-    import: "optional:configserver:http://localhost:8081"
   application:
     name: gateway-service
+  cloud:
+    config:
+      enabled: false       # <--- Deshabilita Config Server aquí
+    gateway:
+      routes:
+        - id: usuario-service
+          uri: lb://usuario-service
+          predicates:
+            - Path=/users/**
+        - id: moto-service
+          uri: lb://moto-service
+          predicates:
+            - Path=/motorbikes/**
+        - id: carro-service
+          uri: lb://carro-service
+          predicates:
+            - Path=/cars/**
 
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}

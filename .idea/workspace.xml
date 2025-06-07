@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba62fe11-3be4-44b6-bdd3-fda606e22c4d" name="Changes" comment="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cursor/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MICROSERVICIOS-JAVA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="ba62fe11-3be4-44b6-bdd3-fda606e22c4d" name="Changes" comment="fix: update Eureka client configuration to use instance-id format">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/carro-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/carro-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-data/eureka-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/moto-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/moto-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-data/usuario-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/usuario-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/com/usuario/service/config/DynamicPortEurekaUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/com/usuario/service/config/DynamicPortEurekaUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +65,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build MICROSERVICIOS-JAVA.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
+    "Spring Boot.ConfigServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.UsuarioServiceApplication.executor": "Run",
     "git-widget-placeholder": "eureka-service",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/juanj/Documents/github/MICROSERVICIOS-JAVA",
@@ -90,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MotoServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
     <configuration name="ApigatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="MICROSERVICIOS-JAVA.apigateway-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.service.ApigatewayServiceApplication" />
@@ -169,7 +176,7 @@
       <workItem from="1749264259771" duration="71000" />
       <workItem from="1749264359688" duration="140000" />
       <workItem from="1749264533067" duration="178000" />
-      <workItem from="1749264736877" duration="472000" />
+      <workItem from="1749264736877" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings">
       <option name="closed" value="true" />
@@ -179,13 +186,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749186358662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: update service configurations and remove unnecessary dependencies">
+      <option name="closed" value="true" />
+      <created>1749265422416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749265422416</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: update Eureka client configuration to use instance-id format">
+      <option name="closed" value="true" />
+      <created>1749265507740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749265507740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: update moto-service and usuario-service configurations for instance ID and Eureka settings" />
     <MESSAGE value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
+    <MESSAGE value="fix: update service configurations and remove unnecessary dependencies" />
+    <MESSAGE value="fix: update Eureka client configuration to use instance-id format" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update Eureka client configuration to use instance-id format" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="feat: enable DEBUG logging for Spring Cloud Gateway and Reactor Netty" />
   </component>
 </project>

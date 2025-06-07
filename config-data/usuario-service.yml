@@ -1,9 +1,13 @@
 server:
   port: 0
 
-eureka :
+spring:
+  application:
+    name: usuario-service
+
+eureka:
   client:
-    servidor-url:
+    service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
